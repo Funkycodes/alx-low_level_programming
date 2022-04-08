@@ -1,5 +1,5 @@
 #include<stdio.h>
-int main()
+int main(void)
 {
     int a;
     for (a = 122; a > 96; a--)
@@ -7,5 +7,5 @@ int main()
         putchar(a);
     }
     putchar(10);
-    return 0;
+    return (0);
 }

@@ -1,5 +1,5 @@
 #include<stdio.h>
-int main()
+int main(void)
 {
     int a;
     /*PRINT FIRST 9 DIGITS*/
@@ -12,5 +12,5 @@ int main()
         putchar(a);
     }
     putchar(10);
-    return 0;
+    return (0);
 }

@@ -1,5 +1,5 @@
 #include<stdio.h>
-int main()
+int main(void)
 {
     int a;
 
@@ -9,5 +9,5 @@ int main()
     }
 
     putchar(10);
-    return 0;
+    return (0);
 }
