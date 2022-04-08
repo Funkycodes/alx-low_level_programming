@@ -1,16 +1,28 @@
-#include<stdio.h>
+#include <stdio.h>
+
+/**
+ *main - prints hexadecimal base 0123456789abcdef, using putchar
+ *Return: Always 0 (Success)
+ */
+
 int main(void)
 {
-    int a;
-    /*PRINT FIRST 9 DIGITS*/
-    for (a = 48; a < 58; a++)
-    {
-        putchar(a);
-    }
-    for (a = 97; a < 103; a++)
-    {
-        putchar(a);
-    }
-    putchar(10);
-    return (0);
+	int n = '0';
+	int a_to_f = 'a';
+
+	while (n <= '9') /*print 0-9*/
+	{
+		putchar(n);
+		n++;
+	}
+
+	while (a_to_f <= 'f') /*print a-f to finish hexbase*/
+	{
+		putchar(a_to_f);
+		a_to_f++;
+	}
+
+	putchar('\n');
+
+	return (0);
 }

@@ -1,13 +1,20 @@
-#include<stdio.h>
+#include <stdio.h>
+
+/**
+ *main - print 0123456789 using putchar
+ *Return: Always 0 (Success)
+ */
+
 int main(void)
 {
-    int a;
+	int n = '0';
 
-    for (a = 48; a < 58; a++)
-    {
-        putchar(a);
-    }
+	while (n <= '9')
+	{
+		putchar(n);
+		n++;
+	}
+	putchar('\n');
 
-    putchar(10);
-    return (0);
+	return (0);
 }
