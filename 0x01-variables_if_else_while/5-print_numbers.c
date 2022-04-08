@@ -1,20 +1,14 @@
-#include <stdio.h>
-
-/**
- *main - print 0123456789
- *Return: Always 0 (Success)
- */
-
-int main(void)
+#include<stdio.h>
+int main()
 {
-	int n = 0;
+    int i;
 
-	while (n < 10)
-	{
-		printf("%i", n);
-		n++;
-	}
-	putchar('\n');
+    for (i = 0; i < 10; i++)
+    {
+    printf("%d", i);
+    }
 
-	return (0);
+    putchar(10);
+
+    return 0;
 }

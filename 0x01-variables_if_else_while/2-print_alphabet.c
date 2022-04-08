@@ -1,20 +1,11 @@
-#include <stdio.h>
-
-/**
- *main - print lowercase a-z
- *Return: Always 0 (Success)
- */
-
-int main(void)
+#include<stdio.h>
+int main() 
 {
-	char alpha = 'a';
-
-	while (alpha <= 'z')
-	{
-		putchar(alpha);
-		alpha++;
-	}
-	putchar('\n');
-
-	return (0);
+    int a;
+    for (a = 97; a < 123; a++)
+    {
+        putchar(a);
+    }
+    putchar(10);
+    return 0;
 }

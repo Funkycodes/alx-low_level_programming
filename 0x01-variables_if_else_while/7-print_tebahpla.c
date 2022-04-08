@@ -1,20 +1,11 @@
-#include <stdio.h>
-
-/**
- *main - print alphabet reversed using putchar
- *Return: Always 0 (Success)
- */
-
-int main(void)
+#include<stdio.h>
+int main()
 {
-	char alpha = 'z';
-
-	while (alpha >= 'a')
-	{
-		putchar(alpha);
-		alpha--;
-	}
-	putchar('\n');
-
-	return (0);
+    int a;
+    for (a = 122; a > 96; a--)
+    {
+        putchar(a);
+    }
+    putchar(10);
+    return 0;
 }
