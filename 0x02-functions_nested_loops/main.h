@@ -9,7 +9,7 @@
  * On error, -1 is returned and error is set appropriately
  */
 
-int _putchar(c);
+int _putchar(int c);
 
 /**
  * print_alphabet - prints the alphabets in lowercase
