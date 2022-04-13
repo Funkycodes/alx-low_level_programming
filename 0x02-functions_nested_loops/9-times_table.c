@@ -13,7 +13,8 @@ void times_table(void)
 	{
 		while (multiplier < 10)
 		{
-			_putchar('0' + table * multiplier);
+			_putchar('0' + (table * multiplier) / 10);
+			_putchar('0' + (table * multiplier) % 10);
 			_putchar(',');
 			_putchar(' ');
 			multiplier++;
