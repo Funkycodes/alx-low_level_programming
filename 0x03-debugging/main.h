@@ -1,6 +1,6 @@
 #ifndef _MAIN_H_
 #define _MAIN_H_
-
+#include <stdio.h>
 /**
  * positive_or_negative - prints whether a given number is positve or negative
  * @i: number to be checked
