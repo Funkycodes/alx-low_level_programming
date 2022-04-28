@@ -2,7 +2,7 @@
 
 ###Author
 
-* theMaskedOtaku
+* theMaskedOtaku(funkycodes)
 
 ### Requirements
 
