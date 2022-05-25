@@ -1,4 +1,6 @@
 #include "lists.h"
+#include <string.h>
+#include <stdlib.h>
 
 /**
  * _strlen - find string length
@@ -7,7 +9,7 @@
  */
 unsigned int _strlen(const char *str)
 {
-	int len;
+	unsigned int len;
 
 	for (len = 0; str[len] != '\0'; len++)
 		;
