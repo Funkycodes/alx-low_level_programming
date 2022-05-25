@@ -1,6 +1,6 @@
-#include "lists.h"
 #include <string.h>
 #include <stdlib.h>
+#include "lists.h"
 
 /**
  * add_node- add node to beginnning of linked list
