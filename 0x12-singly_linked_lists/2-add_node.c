@@ -3,9 +3,9 @@
 #include "lists.h"
 
 /**
- * _strlen: compute lenght of string
+ * _strlen - compute lenght of string
  * @str: sring
- * Return : lenght
+ * Return: lenght
  */
 unsigned int _strlen(const char *str)
 {
