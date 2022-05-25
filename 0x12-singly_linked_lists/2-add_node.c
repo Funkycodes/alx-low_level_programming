@@ -1,31 +1,52 @@
 #include <string.h>
-#include <stdlib.h>
+#include<stdlib.h>
 #include "lists.h"
 
 /**
- * add_node- add node to beginnning of linked list
- * @head: linked list
- * @str: new node string
- * Return: newNode address
+ * _strlen: compute lenght of string
+ * @str: sring
+ * Return : lenght
  */
+unsigned int _strlen(const char *str)
+{
+        int len;
+
+        len = 0;
+        while (str[len] != '\0')
+        {
+                len++;
+        }
+        return (len);
+}
+/**
+ * add_node - add node to beginning of linked list
+ * @head: linked list
+ * @str: data for new node
+ * Return: address of new element, or NULL if failed
+ */
+
 list_t *add_node(list_t **head, const char *str)
 {
-	list_t *newNode;
+	list_t *new_node;
 
-	if (str == NULL)
+	if (str == NULL) 
 		return (NULL);
-	if ((strdup(str)) == NULL)
+	if (strdup(str) == NULL)
 		return (NULL);
 
-	newNode = malloc(sizeof(*newNode));
-	newNode->len = _strlen(str);
-	newNode->str = strdup(str);
+	new_node = malloc(sizeof(list_t));
+	if (new_node == NULL)
+		return (NULL);
+
+	new_node->str = strdup(str);
+	new_node->len = _strlen(str);
 
 	if (head == NULL)
-		newNode->next = NULL;
+		new_node->next = NULL;
 	else
-		newNode->next = *head;
-	*head = newNode;
+		new_node->next = *head;
 
-	return (newNode);
+	*head = new_node;
+
+	return (new_node);
 }
