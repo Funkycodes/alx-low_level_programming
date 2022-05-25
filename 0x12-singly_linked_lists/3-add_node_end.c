@@ -5,7 +5,7 @@
  * @str: string
  * Return: length
  */
-int _strlen(const char *str)
+unsigned int _strlen(const char *str)
 {
 	int len;
 
