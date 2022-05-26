@@ -10,7 +10,7 @@ int _putchar(char c)
 }
 /**
  * print_listint - print Elements of a linked list
- * @h - headnode
+ * @h: headnode
  * Return: length of list
  */
 size_t print_listint(const listint_t *h)
@@ -27,3 +27,4 @@ size_t print_listint(const listint_t *h)
 	}
 	return (i);
 }
+
