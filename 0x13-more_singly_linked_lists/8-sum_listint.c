@@ -1,5 +1,9 @@
-#include "main.h"
-
+#include "lists.h"
+/**
+ * sum_listint - compute sum of data of linkedlist
+ * @head: parameter
+ * Return: sum, 0 if empty
+ */
 int sum_listint(listint_t *head)
 {
 	int sum;
