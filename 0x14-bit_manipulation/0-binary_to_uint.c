@@ -7,6 +7,7 @@
 int _strlen(const char *p)
 {
 	int len = 0;
+
 	while (*p++)
 	{
 		len++;

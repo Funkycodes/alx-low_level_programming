@@ -2,9 +2,9 @@
 
 /**
  * get_bit - get bit at specified index
- * @n number
- * @index : index starting from rightmost
- * Return bit 0 or 1 or -1 if error
+ * @n: number
+ * @index:  index starting from rightmost
+ * Return: bit 0 or 1 or -1 if error
  */
 
 int get_bit(unsigned long int n, unsigned int index)
