@@ -6,7 +6,7 @@
  */
 void print_binary(unsigned long int n)
 {
-	int len =0;
+	int len = 0;
 	unsigned long int copy = n, mask = 1;
 
 	while (copy > 0)
@@ -15,7 +15,7 @@ void print_binary(unsigned long int n)
 		++len;
 	}
 	--len;
-	if (len>0)
+	if (len > 0)
 		mask = mask << len;
 	while (mask > 0)
 	{
