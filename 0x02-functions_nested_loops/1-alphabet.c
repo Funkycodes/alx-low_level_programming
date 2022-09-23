@@ -5,12 +5,14 @@
 
 void print_alphabet(void)
 {
-	char alpha;
+  char alpha;
 
-	for (alpha = 'a'; alpha <= 'z'; alpha++)
-	{
-		_putchar(alpha);
-	}
+  for (alpha = 'a'; alpha <= 'z'; alpha++) 
+  {
+    _putchar(alpha);
+  }
 
-	_putchar('\n');
+  _putchar('\n');
 }
+
+int calc_square(int operand) { return (i * i); }
